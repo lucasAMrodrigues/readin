@@ -1,0 +1,65 @@
+body {
+    font-family: monospace;
+}
+
+ul {
+    font-family: Arial, Helvetica;
+}
+
+
+li {
+    list-style: circle;
+}
+/* classe que deixa o marcador da lista quadrado*/
+.list {
+    list-style: square;
+}
+
+/* classe tema claro */
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+/* classe tema escuro*/  
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+/* adiciona constantes na "raiz" da pág. */
+:root {
+    --green: #00ffc8;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+/* asterisco é seletor universal se aplica a toda a pág.*/
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+body {
+    background: var(--bg);
+}
+
+/* seletor especifico button: posição, tamanho, cor */
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+/*coloca foco quando botão é selecionado adapta ao contorno do botão*/
+.btn:focus { outline-style: none; }

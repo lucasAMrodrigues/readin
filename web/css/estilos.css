@@ -1,0 +1,45 @@
+body {
+    background-color:rgb(223, 238, 240);
+
+}
+h1 {
+    color:rgb(36, 150, 216);
+}
+hr {
+    color:navy;
+}
+p {
+    font-size:16px;
+    margin-left:20px;
+}
+a:link {color:green;}
+a:visited {color:yellow;}
+a:hover {color:black;}
+a:active {color:blue;}
+
+ul {
+    margin:auto;
+    td padding: 0px;
+    list-style:none;
+    font-size: medium;
+    font-family:'Courier New', Courier, monospace;
+}
+
+img {
+    max-width: 25%;
+}
+
+#imglivro
+    {position=left;
+    }
+.header {
+    background:rgb(36, 150, 216);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space between;
+    align-items: center;
+    padding: 8px;
+}
+
+
+    

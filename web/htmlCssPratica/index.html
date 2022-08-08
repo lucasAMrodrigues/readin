@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Html Básico</title>
+</head>
+
+
+<body bgcolor="#e6e6ff"><!--setado cor background em hexadecimal-->
+
+
+<h1>Primeiro paragrafo</h1> <!--Titulos 6 níves aumenta fonte h1 até h6-->
+
+<fontcolor="#ffff524"> <!-- cor da fonte--> <p>Lorem Ipsum is simply dummy<!--p paragrafos--> <b>text</b> <!--b negrito--> of the printing and typesetting industry.<br> <!--br-quebra de linha--> <i>Lorem Ipsum</i> <!--italico has been the industry's standard dummy text ever <strong>since</strong> <strong-negrito apra alfo importante--> the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> 
+<fontsize= "25px">Fonte tam 20px 
+<fontface="verdana"Fonte Verdana 
+</font>
+
+<h2>Segundo Paragrafo</h2>
+<p> It has survived not only five centuries, but also the leap into <u>electronic typesetting</u> <!--u sublinhado-->, remaining essentially unchanged. It was popularised in the 1960s with the release of <br>Letraset H<sub>2</sub>O <!--sub subscrito-->sheets containing X<sup>4</sup> <!--sup superior--> Lorem Ipsum passages, and <em>more</em> recently with desktop publishing <br>software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+
+<img src="imagem_tag_img/tag_img.jpg" alt-"Tag Img" widt="300">
+
+<hr>
+<!--lista não ordenada-->
+<ul>
+	<li>F</li>
+	<li>B</li>
+</ul>
+<!--lista ordenada-->
+<ol>
+	<li>A</li>
+	<li>B</li>
+	<li>C</li>
+</ol>
+<!--lista de definição-->
+<dl> <!--cria lista-->
+	<dt>a fundação</dt> <!--cria nível e define termo-->
+	<dd>F.B, entidade filantropica</dd> <!--cria subnível e adiciona definição-->
+</dl>
+<hr>
+<!--inserção de links a-action direciona navegação a href+endereço destino+texto para link-->
+<ul>
+	<!--<li><a href="http://fundacao.bradesco/"targe="_blank>Fundação /a> </li> -->
+</ul>
+
+<!--borda fina para tabela, table tabela-->
+
+<table border='2'>
+<tr><!--linha-->
+<th>Título 1</th>
+<th>Titulo 2</th>
+</tr>
+
+<tr>
+<td> Fundação Bradesco </td><!--td coluna-->
+<td> Apostila </td>
+</tr>
+
+<tr>
+<td>HTML</td>
+<td>CSS</td>
+</tr>
+</table>
+
+<hr>
+<!--Formulários-->
+<!--Action define destino dos dados coletados valor inserido é URL-->
+<!--Method define metodo HTTP que sera usado para enviar os dados - GET:1024 caracteres para pequenas info ao servido ou POST-->
+<!--Formulários-->
+<form action="/deixaremos-em-branco" method="post">
+<label>Texto:</label>
+<input type="text"> <!--text cria campo de texto de 1 linha-->
+<label>Password:</label>
+<input type="password"><!--campos de entrada de dados e senha-->
+<label>Area de Texto:</label>
+<textarea></textarea><!--campo de texto redimencionavel-->
+</form>
+
+<hr>
+<!--Type Checkbox:  tag para seleção multipla e independente de opções não cancela outra opção-->
+<input type="checkbox" name="opcao" value="selectA" checked>Clique para selecionar o A<br><!--atributo checked o elemento já aparecera selecionado-->
+<input type="checkbox" name="opcao" value="selectB">Clique para selecionar o B
+<br>
+<br>
+<button type="submit">Cadastrar</button>
+<!--name e value informam actions aos dados que devem ser enviados ao servidor-->
+
+<hr>
+<!--Type radio: apenas uma opção selecionavel-->
+
+<input type="radio" name="opcao" value="selectA" checked>Masculino
+<input type="radio" name="opcao" value="selectB">Feminino 
+<br>
+<br>
+<button Type="submit">Cadastrar</button><!--submit envia a pág de destino de atributo actions-->
+<!--reset redefine campos-->
+<!--type button nehuma açãop até ser acionado por cód java-->
+
+</form>
+
+<!--Atributos: informações que inserimos nas tags p que tenham um comportamento desejado - ex:id, class, name, alt, content-->
+
+<!--Tag <select>: conjunto de opções <option> lista drop-down-->
+<hr>
+<p>Selecione uma cor</p>
+<select>
+	<option value="verde">Verde</option>
+	<option value="vermelho">Vermelho</option>
+	<option value="alpha">Alpha</option>
+</select>
